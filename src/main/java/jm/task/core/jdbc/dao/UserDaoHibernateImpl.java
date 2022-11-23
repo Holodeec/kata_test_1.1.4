@@ -82,6 +82,7 @@ public class UserDaoHibernateImpl implements UserDao {
             System.out.println("Еху!!!");
         } catch (RuntimeException e) {
             System.out.println("ФакОф...");
+            //dsdsds
         }
 
         return list;
